@@ -1,0 +1,31 @@
+/* ALL COMMON CSS START */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+   
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* ALL COMMON CSS END */
+
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
