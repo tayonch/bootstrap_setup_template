@@ -4,7 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     outline: 0;
-   
+     font-family: "Poppins", sans-serif;
 }
 ul,ol{
     list-style-type: none;
@@ -19,13 +19,169 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ALL COMMON CSS END */
 
+
 /* HEADER SECTION CSS START */
+nav{
+     background-color: #F9F9FC;
+    padding: 30px 0px 30px 0px;
+    
+}
+.menuflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.menubar ul{
+    display: flex;
+    gap: 46px;
+   
+
+}
+.menubar ul li a{
+    color: #000000;
+     font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+}
+.menubtn a{
+    background-color: #5E3BEE;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 11px 22px 9px 22px ;
+    border-radius: 50px;
+    color: #ffff;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 /* HEADER SECTION CSS END */
-/* HEADER SECTION CSS START */
-/* HEADER SECTION CSS END */
-/* HEADER SECTION CSS START */
-/* HEADER SECTION CSS END */
-/* HEADER SECTION CSS START */
-/* HEADER SECTION CSS END */
+/* sakib SECTION CSS START */
+.sakibtext h1{
+font-size: 60px;
+font-weight: 700;
+line-height: 78px;
+color: #333333;
+width: 479px;
+}
+.sakibtext h6{
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 1.5px;
+color: #5E3BEE;
+width: 479px;
+}
+.sakibflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sakibbtn a{
+    background-color: #5E3BEE;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 23px 38px 26px 42px ;
+    border-radius: 50px;
+    color: #ffff;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin: 32px 0px 32px 0px ;
+}
+.sakibbtn{
+    display: flex;
+    gap: 23px
+    ;
+    align-items: center;
+    
+}
+.sakibbtn p{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+#sakib{
+    padding: 16px 0px 45px 0px ;
+    background-color: #F9F9FC;
+}
+/* sakib SECTION CSS END */
+
+/* ratting SECTION CSS START */
+.ratone h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+.ratone p{
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(18, 18, 18, 0.705);
+    margin-top: 8px;
+}
+.rattingflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 91px;
+    margin-bottom: 81px;
+}
+/* ratting SECTION CSS END */
+/* service SECTION CSS START */
+.servicetext{
+    text-align: center;
+}
+.servicetext h6{
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #5E3BEE;
+}
+.servicetext p{
+    color: rgba(18, 18, 18, 0.705);
+    line-height: 32px;
+    width: 600px;
+    margin: 0px auto;
+
+}
+.servicetext h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 56px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.servicecard{
+    border: 1px solid #F9F9FC;
+    border-radius: 24px;
+    width: 32%;
+   
+    
+}
+.servicecard .cardimg{
+    margin: 51px 168px 0px 168px;
+    
+}
+.servicecard h5{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0px auto;
+    width: 307px;
+}
+.servicecard p{
+     color: rgba(18, 18, 18, 0.705);
+    line-height: 32px;
+    width: 307px;
+}
+/* service SECTION CSS END */
 /* HEADER SECTION CSS START */
 /* HEADER SECTION CSS END */
